@@ -42,7 +42,7 @@ export const getStaticProps = async () => {
       })),
     },
     // 數字代表幾秒判斷一次資料有沒有改變
-    revalidate: 10,
+    revalidate: 1,
   };
 };
 
